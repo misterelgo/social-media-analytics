@@ -1,0 +1,26 @@
+# Environnement virtuel
+venv/
+.venv/
+
+# Données brutes Instagram et TikTok (privées + trop lourdes)
+data/instagram/
+data/tiktok/
+
+# Données traitées (optionnel — on garde processed pour Streamlit)
+# data/processed/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# Outputs locaux
+outputs/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
